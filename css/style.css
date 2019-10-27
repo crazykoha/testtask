@@ -1,0 +1,80 @@
+header {
+    background-color: #B9C6FF;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    place-content: space-between;
+}
+.logo {
+    margin-left: 20px;
+}
+.user_section {
+    justify-self: end;
+    display: flex;
+    color: red;
+    margin-right: 30px;
+}
+.user_section a {
+    margin-left: 15px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+.wrap form {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrap form input {
+    display: flex;
+    margin-top: 20px;
+}
+
+.wrap form .btn-info {
+    justify-content: center;
+}
+.wrap form p {
+    display: flex;
+    text-align: center;
+}
+.pager {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.pager a {
+    padding: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: inline;
+    border-radius: 3px;
+}
+
+.task_form {
+    margin: 100px auto;
+    width: 500px;
+}
+.task_form input{
+    margin-top: 25px;
+}
+.task_form textarea{
+    margin-top: 25px;
+}
+.task_create_button{
+    margin: 10px;
+}
+.message {
+    display: flex;
+    justify-content: center;
+    color: #16CC00;
+    font-size: 20px;
+}
+.task_block {
+    padding: 10px;
+    margin-top: 30px;
+}
